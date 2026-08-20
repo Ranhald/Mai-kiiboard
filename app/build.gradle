@@ -1,0 +1,22 @@
+apply plugin: 'com.android.application'
+
+android {
+    defaultConfig {
+        applicationId "com.mai.keyboard"
+        compileSdk 37
+        minSdkVersion 24
+        targetSdkVersion 37
+        versionCode 147
+        versionName "6.6"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    namespace 'com.mai.keyboard'
+}
+
+dependencies {
+}

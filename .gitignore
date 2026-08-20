@@ -1,0 +1,41 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local configuration
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Android generated files
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Generated folders
+bin/
+gen/
+out/
+
+# Logs
+*.log
+
+# Android captures
+captures/
+
+# ProGuard / R8
+proguard/
+
+# Keystores / signing credentials
+*.jks
+*.keystore
+
+# Temporary files
+.DS_Store
+Thumbs.db
